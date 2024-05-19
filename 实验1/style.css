@@ -1,0 +1,111 @@
+/* 头部 */
+.top {
+    /* width: 100vw; */
+    height: 50vh;
+    background-image: url(/images/home-banner@2x.jpg);
+    background-size: cover;
+    text-align: center;
+    .shang {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0 6vh 0;
+    }
+    .button {
+        color: #1b75fd; 
+        height: 40px; 
+        width: 150px;
+        margin-top: 6vh;
+        border: none;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius:4px;
+    }
+}
+
+/* 上部 */
+.shangbu {
+    padding: 40px 0;
+    .chang {
+        margin-top: 15px;
+        border: solid 1px black;
+        height: 30px;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: #666;
+        font-size: 0.8rem;
+    }
+    a:hover {
+        color:#DD302D;
+        text-decoration: none;
+    }
+}
+
+/* 媒体查询 */
+@media (max-width: 768px) {
+    .top img {
+        width: 25vw;
+    }
+    .shangbu img {
+        width: 100%
+    }
+    .xiabu>div {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-right: 0;
+    }
+    .xiabu svg {
+        width: 70px;
+    }
+}
+@media (min-width: 768px) {
+    .shangbu img {
+        width: 45%;
+    }
+    .xiabu :nth-child(3) {
+        padding-right: 0;
+    }
+}
+
+/* 下部 */
+.xiabu {
+    svg {
+        border: #1b75fd 1px solid;
+        padding: 12px;
+        background-color: #1b75fd;
+        color: #fff;
+        border-radius:10px;
+        margin: 8px 15px 10px 0;
+    }
+    .dazi {
+        font-size: 1.4rem; 
+        font-weight: bold;
+        
+    }
+    .xiaozi {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    a {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+/* 底部 */
+.bottom {
+    margin-top: 40px;
+    background-color: #f4f4f4;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    span {
+        vertical-align: middle;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
