@@ -1,0 +1,5 @@
+# Created at 2024-05-09T16:09:56.571
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Code Project\vscode project\workspace\Advanced Web Experiment\Experiment 3\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
